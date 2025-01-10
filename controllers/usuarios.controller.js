@@ -4,7 +4,7 @@ require("dotenv").config()
 
 exports.usuarios = async (req,res) =>{
     try {
-        let dataUsuario = await usuariosModel.find()
+        let dataUsuario = await usuarioModel.find()
         res.json(dataUsuario)
     } catch (error) {
         console.log (error)

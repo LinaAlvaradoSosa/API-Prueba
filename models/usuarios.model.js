@@ -22,5 +22,5 @@ module.exports = mongoose.model("usuario", usuarioModel)
 /*
 "nombre":"Lina Alvarado",
 "correo":"lina.alvarado@gmail.com",
-"contraseña:":"linaAlva"
+"contraseña":"linaAlva"
 */
